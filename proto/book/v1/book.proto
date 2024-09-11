@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package book.v1;
 
-option go_package = "book_service/proto/book/v1;bookv1";
+option go_package = "proto_connect_book_service/proto/gen/book/v1;bookv1";
 
 message Book {
   string id = 1;

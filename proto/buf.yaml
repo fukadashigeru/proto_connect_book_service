@@ -1,0 +1,10 @@
+version: v1
+name: buf.build/proto_connect_book_service/book-service
+deps:
+  - buf.build/googleapis/googleapis
+breaking:
+  use:
+    - FILE
+lint:
+  use:
+    - DEFAULT
